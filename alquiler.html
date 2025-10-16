@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alquiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="vehiculos.html">vehiculos</a></li>
+                <li><a href="alquiler.html">alquilar carro</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<form action="nombre" method="post">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+
+  <label for="correo">correo electrónico:</label><br>
+  <input type="email" id="correo" name="correo" required><br><br>
+
+  <label for="vehiculo">Vehículo:</label><br>
+  <select id="vehiculo" name="vehiculo" required>
+    <option value="Honda CR-V">Honda CR-V</option>
+    <option value="Jeep Wrangler">Jeep Wrangler</option>
+    <option value="BMW M3">BMW M3</option>
+    <option value="Toyota Corolla">Toyota Corolla</option>
+  </select><br><br>
+
+  <label for="fecha-alquiler">Fecha de Alquiler:</label><br>
+  <input type="date" id="fecha-alquiler" name="fecha-alquiler" required><br><br>
+
+  <label for="fecha-devolucion">Fecha de Devolución:</label><br>
+  <input type="date" id="fecha-devolucion" name="fecha-devolucion" required><br><br>
+
+  <label for="comentarios">Comentarios o Requerimientos Adicionales:</label><br>
+  <textarea id="comentarios" name="comentarios" rows="2" cols="30" ></textarea><br><br>
+
+  <button type="submit">Enviar Solicitud</button>
+</form>
+
+  
+
+
+</body>
+</html>
